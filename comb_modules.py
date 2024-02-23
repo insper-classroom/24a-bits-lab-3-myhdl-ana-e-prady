@@ -18,7 +18,11 @@ def exe1(q, a, b):
 
     @always_comb
     def comb():
+<<<<<<< HEAD
         q.next = a or not b
+=======
+        q.next = a or (not b)
+>>>>>>> d0e2bbf9af536d35f48252e4786658346cb7ce97
 
     return instances()
 
